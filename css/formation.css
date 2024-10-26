@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    padding: 0 5%;
+    margin-bottom: 3rem;
+}
+
+header figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    color: white;
+    margin-top: 1rem;
+}
+
+header figure figcaption ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+header figure figcaption ul li{
+    font-size: large;
+    color: white;
+}
+
+header nav{
+    width: 45%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: large;
+    transition: 1s;
+}
+
+header nav ul li a:hover{
+    font-size: larger;
+    font-weight: bold;
+}
+
+header nav ul #im1{
+    width: 5rem;
+}
+
+header nav ul #im2{
+    width: 5rem;
+}
+
+main{
+    height: 70vh;
+}
+
+main #tit{
+    text-align: right;
+    padding: 0 7rem;
+    border-bottom: 3px solid #00c8ff;
+    margin-bottom: 2rem;
+}
+
+main #tit h1{
+    color: #00c8ff;
+}
+
+main section{
+    height: 88%;
+}
+
+section ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+section ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    height: 100%;
+}
+
+section ul li #des{
+    background-color: #9fde0e;
+    height: 90%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+section ul li #des img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+section ul li #des h4{
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+section ul li #des p{
+    margin: 0 1rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+section ul li #des #par{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section ul li #des #par button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+    height: 5vh;
+    background-color: #00c8ff;
+    border-radius: 5rem;
+}
+
+section ul li #des #par button a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+section ul  li h5{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-top:  solid rgba(159, 222, 14, 0.7);
+}
+
+footer figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer figure figcaption{
+    display: flex;
+    color: white;
+    margin: 2rem 0;
+}

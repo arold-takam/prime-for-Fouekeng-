@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    padding: 0 5%;
+    margin-bottom: 3rem;
+}
+
+header figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    color: white;
+    margin-top: 1rem;
+}
+
+header figure figcaption ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+header figure figcaption ul li{
+    font-size: large;
+    color: white;
+}
+
+header nav{
+    width: 45%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: large;
+    transition: 1s;
+}
+
+header nav ul li a:hover{
+    font-size: larger;
+    font-weight: bold;
+}
+
+header nav ul #im1{
+    width: 5rem;
+}
+
+header nav ul #im2{
+    width: 5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 0 15rem;
+}
+
+main article{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #9fde0e;
+    margin-right: 0rem;
+}
+
+main article h1{
+    transform: rotate(-90deg);
+}
+
+main section{
+    width: 70vw;
+    height: 55vh;
+    border-radius: 17px;
+    border: solid rgba(0, 200, 255, 0.568);
+    background: #000000;
+    box-shadow: 0px 0px 44px 5px #00c8ff;
+}
+
+main section h1{
+    margin: 2rem 2rem;
+    color: white;
+}
+
+main section #corp{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 17px;
+}
+
+main section #corp #corp1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 17px;
+    border-right: 1px solid white;
+    /* border: solid rgba(0, 200, 255, 0.568); */
+}
+
+main section #corp #corp1 #cpt1{
+    margin-bottom: 3rem;
+}
+
+main section #corp #corp1 #cpt1 h5{
+    font-size: larger;
+    color: #00c8ff;
+    margin-bottom: 0.5rem;
+}
+
+main section #corp #corp1 #cpt1 #bar{
+    width: 15vw;
+    height: 1.5rem;
+    border-radius: 20rem;
+    background-color: white;
+}
+
+main section #corp #corp1 #cpt1 #bar #pour1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 65%;
+    height: 100%;
+    background-color: #9fde0e;
+    border-radius: 20rem;
+    transition: width 1s;
+}
+
+main section #corp #corp1 #cpt2{
+    margin-bottom: 3rem;
+}
+
+main section #corp #corp1 #cpt2 h5{
+    font-size: larger;
+    color: #00c8ff;
+    margin-bottom: 0.5rem;
+}
+
+main section #corp #corp1 #cpt2 #bar{
+    width: 15vw;
+    height: 1.5rem;
+    border-radius: 20rem;
+    background-color: white;
+}
+
+main section #corp #corp1 #cpt2 #bar #pour2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 70%;
+    height: 100%;
+    background-color: #9fde0e;
+    border-radius: 20rem;
+    transition: width 1s;
+}
+
+main section #corp #corp1 #cpt3{
+    margin-bottom: 3rem;
+}
+
+main section #corp #corp1 #cpt3 h5{
+    font-size: larger;
+    color: #00c8ff;
+    margin-bottom: 0.5rem;
+}
+
+main section #corp #corp1 #cpt3 #bar{
+    width: 15vw;
+    height: 1.5rem;
+    border-radius: 20rem;
+    background-color: white;
+}
+
+main section #corp #corp1 #cpt3 #bar #pour3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 25%;
+    height: 100%;
+    background-color: #9fde0e;
+    border-radius: 20rem;
+    transition: width 1s;
+}
+
+main section #corp #corp2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 17px;
+    border-left: 1px solid white;
+    /* border: solid rgba(0, 200, 255, 0.568); */
+}
+
+main section #corp #corp2 #cpt4{
+    margin-bottom: 3rem;
+}
+
+main section #corp #corp2 #cpt4 h5{
+    font-size: larger;
+    color: #00c8ff;
+    margin-bottom: 0.5rem;
+}
+
+main section #corp #corp2 #cpt4 #bar{
+    width: 15vw;
+    height: 1.5rem;
+    border-radius: 20rem;
+    background-color: white;
+}
+
+main section #corp #corp2 #cpt4 #bar #pour4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 40%;
+    height: 100%;
+    background-color: #9fde0e;
+    border-radius: 20rem;
+    transition: width 1s;
+}
+
+main section #corp #corp2 #cpt5{
+    margin-bottom: 3rem;
+}
+
+main section #corp #corp2 #cpt5 h5{
+    font-size: larger;
+    color: #00c8ff;
+    margin-bottom: 0.5rem;
+}
+
+main section #corp #corp2 #cpt5 #bar{
+    width: 15vw;
+    height: 1.5rem;
+    border-radius: 20rem;
+    background-color: white;
+}
+
+main section #corp #corp2 #cpt5 #bar #pour5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 90%;
+    height: 100%;
+    background-color: #9fde0e;
+    border-radius: 20rem;
+    transition: width 1s;
+}
+
+main section #corp #corp2 #cpt6{
+    margin-bottom: 3rem;
+}
+
+main section #corp #corp2 #cpt6 h5{
+    font-size: larger;
+    color: #00c8ff;
+    margin-bottom: 0.5rem;
+}
+
+main section #corp #corp2 #cpt6 #bar{
+    width: 15vw;
+    height: 1.5rem;
+    border-radius: 20rem;
+    background-color: white;
+}
+
+main section #corp #corp2 #cpt6 #bar #pour6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 50%;
+    height: 100%;
+    background-color: #9fde0e;
+    border-radius: 20rem;
+    transition: width 1s;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-top:  solid rgba(159, 222, 14, 0.7);
+}
+
+footer figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer figure figcaption{
+    display: flex;
+    color: white;
+    margin: 2rem 0;
+}
